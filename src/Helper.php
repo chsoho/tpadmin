@@ -1,12 +1,12 @@
 <?php
 namespace Ch\TpAdmin;
 
-use Ch\TpAdmin\Helper\String;
+use Ch\TpAdmin\Helper\StringHelper;
 
 class Helper
 {
     public function string()
     {
-        return String::class;
+        return StringHelper::class;
     }
 }
